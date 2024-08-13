@@ -7,7 +7,7 @@ const StoreContextProvider=(props)=>{
 
   const[cartItems,setCartItems] = useState({});
 
-  const url="http://localhost:4000"
+  const url="https://cbt-cip-backend-u5mn.onrender.com"
   const [token,setToken]=useState("");
   //To get the food items list from database
   const [food_list,setFoodList]=useState([])
